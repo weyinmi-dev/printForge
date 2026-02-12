@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 
 export default function AboutPage() {
@@ -9,7 +8,7 @@ export default function AboutPage() {
           About PrintForge
         </h1>
         <div className="grid items-center gap-8 mb-12 md:grid-cols-2">
-          <div className="relative h-[300px] w-full">
+          <div className="relative h-75 w-full">
             <Image
               src="/hero-image-square.svg"
               alt="PrintForge Community - A group of makers collaborating on 3D printing projects"
